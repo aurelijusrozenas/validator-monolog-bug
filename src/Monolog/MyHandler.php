@@ -15,7 +15,7 @@ class MyHandler extends AbstractHandler
     ) {
     }
 
-    public function handle(array $record)
+    public function handle(array $record): bool
     {
         return false;
     }
