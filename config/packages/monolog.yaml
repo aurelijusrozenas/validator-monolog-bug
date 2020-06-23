@@ -1,0 +1,6 @@
+monolog:
+    handlers:
+        # FIXME comment next 3 lines to make it work OR see \App\Monolog\MyHandler
+        my_handler:
+            type: service
+            id: App\Monolog\MyHandler
